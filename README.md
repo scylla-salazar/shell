@@ -6,10 +6,10 @@ Task 1 - Write a beautiful code that passes the Betty checks
 
 Task 2 - Write a UNIX command line interpreter.
 
-Task 3 - Write a UNIX command line interpreter that Handle command lines 
+Task 3 - Write a UNIX command line interpreter that Handle command lines
 with arguments
 
-Task 4 - Write a UNIX command line interpreter that Handle command lines 
+Task 4 - Write a UNIX command line interpreter that Handle command lines
 with arguments and Handles PATH
 
 Task 5 - Implement the exit built-in, that exits the shell

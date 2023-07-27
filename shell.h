@@ -49,8 +49,7 @@ typedef struct liststr
 
 
 /**
- *
- *struct passinfo - This contain pseudo-args to pass into a funct
+ * struct passinfo - This contain pseudo-args to pass into a funct
  *@arg: Refers a str generated from getline containing args
  *@argv: Refers to an array of str generated from arg
  *@path: Refers to str path for the current cmd
@@ -88,7 +87,7 @@ typedef struct passinfo
 	int status;
 
 	char **cmd_buf;
-	int cmd_buf_type; 
+	int cmd_buf_type;
 	int readfd;
 	int histcount;
 } info_t;
@@ -104,8 +103,8 @@ typedef struct passinfo
  */
 typedef struct builtin
 {
-        char *type;
-        int (*func)(info_t *);
+	char *type;
+	int (*func)(info_t *);
 } builtin_table;
 
 
